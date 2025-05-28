@@ -103,13 +103,12 @@ const Collection = () => {
           <p className="mb-3 text-sm font-medium">CATEGORIES</p>
           <div className="flex flex-col gap-2 text-sm font-light text-gray-700">
             {[
-              "hair-style",
-              "makeup",
-              "threading",
-              "facial",
-              "waxing",
-              "manicure-pedicure",
+              "classic",
+              "masala",
+              "elaichi",
+              "ginger",
               "combo",
+              "chocolate",
             ].map((cat) => (
               <label className="flex gap-2 capitalize" key={cat}>
                 <input

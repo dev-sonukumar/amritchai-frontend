@@ -5,7 +5,7 @@ import BestSeller from "../components/BestSeller";
 import OurPolicy from "../components/OurPolicy";
 import NewsletterBox from "../components/NewsletterBox";
 // import MainBanner from "../components/MainBanner";
-import BottomBanner from "../components/BottomBanner";
+// import BottomBanner from "../components/BottomBanner";
 import Categories from "../components/Categories";
 import FloatingContactButtons from "../components/FloatingContactButtons";
 import Call from "../components/Call";
@@ -17,13 +17,13 @@ const Home = () => {
       <Categories />
       {/* <MainBanner /> */}
       {/* <LatestCollection /> */}
-      <Call />
-      <BottomBanner />
+      {/* <BottomBanner /> */}
       <BestSeller />
+      <Call />
       {/* <OurPolicy /> */}
       {/* <NewsletterBox /> */}
       {/* Floating Contact Buttons */}
-      <FloatingContactButtons phoneNumber="919315040549" />
+      <FloatingContactButtons phoneNumber="919540050510" />
     </div>
   );
 };

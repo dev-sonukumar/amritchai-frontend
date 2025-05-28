@@ -29,14 +29,8 @@ import main_banner_bg_mb4 from "./main_banner_bg_mb4.png";
 import main_banner_bg_mb5 from "./main_banner_bg_mb5.png";
 import main_banner_bg5 from "./main_banner_bg5.png";
 
-import hairstyle from "././assets/service/hair1.webp";
-import makeup from "././assets/service/makeup1.webp";
-import threading from "././assets/service/threading1.webp";
-import facial from "././assets/service/facial1.webp";
-import waxing from "././assets/service/waxing1.webp";
-import manicure from "././assets/service/manicure1.webp";
-import combo from "././assets/service/combo1.webp";
-import bleach from "././assets/service/bleach.webp";
+import chai from "././assets/service/chai.webp";
+
 import black_arrow_icon from "./black_arrow_icon.svg";
 import white_arrow_icon from "./white_arrow_icon.svg";
 
@@ -59,14 +53,6 @@ export const assets = {
   bottom_banner_image_sm,
   bottom_banner_video_sm,
   bottom_banner_video_sm1,
-  hairstyle,
-  makeup,
-  threading,
-  facial,
-  waxing,
-  manicure,
-  combo,
-  bleach,
   logo,
   hero_img,
   cart_icon,
@@ -91,6 +77,7 @@ export const assets = {
   main_banner_bg_mb4,
   main_banner_bg_mb5,
   main_banner_bg5,
+  chai,
 };
 
 export const features = [
@@ -114,66 +101,49 @@ export const features = [
     title: "Step Into the Cloud of Beauty & Wellness",
     description: "Salon services elevated to perfection..",
   },
-  // {
-  //   icon: star_icon,
-  //   title: "Unleash a New You Today",
-  //   description: "Chic haircuts. Glowing skin. Relaxed soul.",
-  // },
-  // {
-  //   icon: star_icon,
-  //   title: "Because You Deserve to Look Your Best",
-  //   description: "Let your style speak volumes.",
-  // },
 ];
 
 export const categories = [
   {
-    text: "Hair-Style",
-    path: "hair-style",
-    image: hairstyle,
-    bgColor: "#FEF6DA",
+    text: "Masala Tea",
+    path: "masala",
+    // image: masala,
+    image: chai,
+    backgroundColor: "#FFF4E0", // light spice tone
   },
   {
-    text: "Makeup",
-    path: "makeup",
-    image: makeup,
-    bgColor: "#FEE0E0",
+    text: "Elaichi Tea",
+    path: "elaichi",
+    // image: elaichi,
+    image: chai,
+    backgroundColor: "#E9F6EC", // cardamom fresh green
   },
   {
-    text: "Face-Threading",
-    path: "threading",
-    image: threading,
-    bgColor: "#F0F5DE",
+    text: "Ginger Tea",
+    path: "ginger",
+    // image: ginger,
+    image: chai,
+    backgroundColor: "#FDEFEF", // warm light red tone
   },
   {
-    text: "Facial",
-    path: "facial",
-    image: facial,
-    bgColor: "#E1F5EC",
+    text: "Chocolate Tea",
+    path: "chocolate",
+    // image: chocolate,
+    image: chai,
+    backgroundColor: "#F6E6D9", // light cocoa tone
   },
   {
-    text: "Waxing",
-    path: "waxing",
-    image: waxing,
-    bgColor: "#FEE6CD",
-  },
-  {
-    text: "Manicure-Pedicure",
-    path: "manicure-pedicure",
-    image: manicure,
-    bgColor: "#E0F6FE",
-  },
-  {
-    text: "Bleach | D-tan | Clean-up",
-    path: "bleach",
-    image: bleach,
-    bgColor: "#F1E3F9",
+    text: "Classic Tea",
+    path: "classic",
+    // image: classic,
+    image: chai,
+    backgroundColor: "#F0F0F0", // simple elegant neutral
   },
   {
     text: "Combo",
     path: "combo",
-    image: combo,
-    bgColor: "#F1E3F9",
+    image: chai,
+    backgroundColor: "#F1E3F9", // lavender touch
   },
 ];
 

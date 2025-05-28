@@ -1,26 +1,26 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../../context/ShopContext";
-import ProductItem from "../../components/ProductItem";
 import Title from "../../components/Title";
+import ProductItem from "../../components/ProductItem";
 
-const Makeup = () => {
+const Ginger = () => {
   const { products } = useContext(ShopContext);
-  const [makeupProducts, setMakeupProducts] = useState([]);
+  const [teaProducts, setTeaProducts] = useState([]);
 
   useEffect(() => {
-    const filtered = products.filter((item) => item.category === "makeup");
-    setMakeupProducts(filtered);
+    const filtered = products.filter((item) => item.category === "ginger");
+    setTeaProducts(filtered);
   }, [products]);
 
   return (
     <div className="pt-10 border-t">
       <div className="flex justify-between text-base sm:text-2xl mb-4">
-        <Title text1="MAKEUP" text2="" />
+        <Title text1="GINGER" text2="TEA" />
       </div>
 
-      {makeupProducts.length > 0 ? (
+      {teaProducts.length > 0 ? (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6">
-          {makeupProducts.map((item, index) => (
+          {teaProducts.map((item, index) => (
             <ProductItem
               key={index}
               name={item.name}
@@ -32,11 +32,11 @@ const Makeup = () => {
         </div>
       ) : (
         <div className="text-center text-gray-500 text-lg mt-10">
-          No makeup products found.
+          No Ginger Tea found.
         </div>
       )}
     </div>
   );
 };
 
-export default Makeup;
+export default Ginger;

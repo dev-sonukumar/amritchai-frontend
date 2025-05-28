@@ -17,12 +17,12 @@ const BestSeller = () => {
   return (
     <div className="my-10">
       <div className="text-center py-8 text-3xl">
-        <Title text1={"TRANDING"} text2={"SERVICES"} />
+        <Title text1={"TRENDING"} text2={"TEAS"} />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
-          Stay ahead of the beauty curve with our trending services—featuring
-          the most requested treatments loved by our clients. From glow-boosting
-          facials to expert waxing and spa sessions, experience salon-quality
-          care at home.
+          Discover the perfect cup with Amrit Chai’s trending flavors — a
+          curated selection of our most loved teas. From the bold warmth of
+          Masala to the refreshing taste of Elaichi and Ginger, enjoy
+          handcrafted blends that awaken your senses and comfort your soul.
         </p>
       </div>
 

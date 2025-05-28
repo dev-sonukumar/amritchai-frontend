@@ -3,24 +3,24 @@ import { ShopContext } from "../../context/ShopContext";
 import Title from "../../components/Title";
 import ProductItem from "../../components/ProductItem";
 
-const HairStyle = () => {
+const Chocolate = () => {
   const { products } = useContext(ShopContext);
-  const [hairStyleProducts, setHairStyleProducts] = useState([]);
+  const [teaProducts, setTeaProducts] = useState([]);
 
   useEffect(() => {
-    const filtered = products.filter((item) => item.category === "hair-style");
-    setHairStyleProducts(filtered);
+    const filtered = products.filter((item) => item.category === "chocolate");
+    setTeaProducts(filtered);
   }, [products]);
 
   return (
     <div className="pt-10 border-t">
       <div className="flex justify-between text-base sm:text-2xl mb-4">
-        <Title text1="HAIR" text2="STYLE" />
+        <Title text1="CHOCOLATE" text2="TEA" />
       </div>
 
-      {hairStyleProducts.length > 0 ? (
+      {teaProducts.length > 0 ? (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6">
-          {hairStyleProducts.map((item, index) => (
+          {teaProducts.map((item, index) => (
             <ProductItem
               key={index}
               name={item.name}
@@ -32,11 +32,11 @@ const HairStyle = () => {
         </div>
       ) : (
         <div className="text-center text-gray-500 text-lg mt-10">
-          No hair-style products found.
+          No Chocolate Tea found.
         </div>
       )}
     </div>
   );
 };
 
-export default HairStyle;
+export default Chocolate;

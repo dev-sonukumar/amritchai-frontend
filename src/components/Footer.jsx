@@ -1,44 +1,64 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="bg-[#FFF8F1] text-gray-700 px-4 md:px-10">
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
+        {/* Brand Info */}
         <div>
-          <img src={assets.logo} className="mb-5 w-32" alt="" />
+          <img src={assets.logo} className="mb-5 w-36" alt="Amrit Chai logo" />
           <p className="w-full md:w-2/3 text-gray-600">
-            Cloud Salon is your trusted beauty partner, offering premium salon
-            and wellness services at your doorstep. With certified experts,
-            top-quality products, and unmatched convenience, we bring the luxury
-            of a salon experience into the comfort of your home. Your beauty,
-            your space, your time.
+            Amrit Chai brings you the soul of India in every sip. Our
+            handcrafted blends — from bold Masala to soothing Elaichi — are made
+            with love and the finest ingredients. Discover warmth, flavor, and
+            tradition brewed to perfection.
           </p>
         </div>
 
-        <div>
-          <p className="text-xl font-medium mb-5">COMPANY</p>
+        {/* Company Links */}
+        <div className="my-auto">
+          <p className="text-xl font-semibold mb-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Delivery</li>
-            <li>Privacy policy</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About Us</Link>
+            </li>
+            <li>
+              <Link to="/shop">Shop</Link>
+            </li>
+            <li>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </li>
+            <li>
+              <Link to="/shipping-returns">Shipping & Returns</Link>
+            </li>
           </ul>
         </div>
 
-        <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+        {/* Contact Info */}
+        <div className="my-auto">
+          <p className="text-xl font-semibold mb-5">CONTACT</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>+91-9315040549</li>
-            <li>contact@cloudsalon.in</li>
+            <li>
+              <a href="tel:+919315040549">+91-8810260166</a>
+            </li>
+            <li>
+              <a href="mailto:contact@amritchai.in">contact@amritchai.in</a>
+            </li>
+            <li>Najafgarh, New Delhi, India</li>
           </ul>
         </div>
       </div>
 
+      {/* Footer Bottom */}
       <div>
-        <hr />
-        <p className="py-5 text-sm text-center">
-          Copyright 2025@ cloudsalon.com - All Right Reserved.
+        <hr className="border-gray-300" />
+        <p className="py-5 text-sm text-center text-gray-500">
+          © 2025 Amrit Chai. All rights reserved.
         </p>
       </div>
     </div>

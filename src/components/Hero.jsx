@@ -7,9 +7,9 @@ const slides = [
   {
     id: 1,
     image: assets.main_banner_bg1,
-    heading: "India’s Most Affordable Home Salon Home Salon in Delhi.",
-    subheading:
-      "No need to step out for Salon! Cloud Salon provides all Salon Services near you, including Waxing, facials, Manicures, pedicures, Spa from experienced beauticians, and more.",
+    // heading: "India’s Most Affordable Home Salon Home Salon in Delhi.",
+    // subheading:
+    //   "No need to step out for Salon! Cloud Salon provides all Salon Services near you, including Waxing, facials, Manicures, pedicures, Spa from experienced beauticians, and more.",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const slides = [
   {
     id: 3,
     image: assets.main_banner_bg2,
-    heading:
-      "Redefine Your Beauty Routine with Professional Care, Anytime, Anywhere — Only with Cloud Salon.",
+    // heading:
+    //   "Redefine Your Beauty Routine with Professional Care, Anytime, Anywhere — Only with Cloud Salon.",
   },
   {
     id: 4,

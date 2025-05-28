@@ -1,26 +1,26 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../../context/ShopContext";
-import ProductItem from "../../components/ProductItem";
 import Title from "../../components/Title";
+import ProductItem from "../../components/ProductItem";
 
-const Threading = () => {
+const Elaichi = () => {
   const { products } = useContext(ShopContext);
-  const [threadingProducts, setThreadingProducts] = useState([]);
+  const [elaichiProducts, setElaichiProducts] = useState([]);
 
   useEffect(() => {
-    const filtered = products.filter((item) => item.category === "threading");
-    setThreadingProducts(filtered);
+    const filtered = products.filter((item) => item.category === "elaichi");
+    setElaichiProducts(filtered);
   }, [products]);
 
   return (
     <div className="pt-10 border-t">
       <div className="flex justify-between text-base sm:text-2xl mb-4">
-        <Title text1="THREADING" text2="" />
+        <Title text1="ELIACHI" text2="TEA" />
       </div>
 
-      {threadingProducts.length > 0 ? (
+      {elaichiProducts.length > 0 ? (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6">
-          {threadingProducts.map((item, index) => (
+          {elaichiProducts.map((item, index) => (
             <ProductItem
               key={index}
               name={item.name}
@@ -32,11 +32,11 @@ const Threading = () => {
         </div>
       ) : (
         <div className="text-center text-gray-500 text-lg mt-10">
-          No threading products found.
+          No Elaichi Tea found.
         </div>
       )}
     </div>
   );
 };
 
-export default Threading;
+export default Elaichi;

@@ -10,12 +10,13 @@ const Categories = () => {
       <div className="text-center py-8 text-3xl">
         <Title text1={"OUR"} text2={"CATEGORIES"} />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
-          Discover a wide range of salon services tailored to your beauty needs
-          — from skincare and haircare and more at your doorstep.
+          Explore our delightful range of tea categories—each crafted with care
+          to offer rich flavors, authentic ingredients, and a refreshing
+          experience in every sip.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 mt-6 gap-6 ">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-6 mt-6 gap-6 ">
         {categories.map((category, index) => (
           <div
             key={index}

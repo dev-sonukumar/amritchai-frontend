@@ -14,11 +14,9 @@ const Combo = () => {
 
   return (
     <div className="py-10">
-      <Title text1="COMBO" text2="SERVICES" />
+      <Title text1="COMBO" text2="TEA PACK" />
       {comboProducts.length === 0 ? (
-        <p className="text-center text-gray-500 mt-6">
-          No combo services found.
-        </p>
+        <p className="text-center text-gray-500 mt-6">No Combo Tea found.</p>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6 mt-6">
           {comboProducts.map((item, index) => (

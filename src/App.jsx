@@ -15,14 +15,14 @@ import SearchBar from "./components/SearchBar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Verify from "./pages/Verify";
-import HairStyle from "./pages/categoriesPages/HairStyle";
-import Makeup from "./pages/categoriesPages/Makeup";
-import Threading from "./pages/categoriesPages/Threading";
-import Facial from "./pages/categoriesPages/Facial";
-import Waxing from "./pages/categoriesPages/Waxing";
-import ManicurePedicure from "./pages/categoriesPages/ManicurePedicure";
+
 import Combo from "./pages/categoriesPages/Combo";
-import Bleach from "./pages/categoriesPages/Bleach";
+
+import Masala from "./pages/categoriesPages/Masala";
+import Elaichi from "./pages/categoriesPages/Elaichi";
+import Ginger from "./pages/categoriesPages/Ginger";
+import Chocolate from "./pages/categoriesPages/Chocolate";
+import Classic from "./pages/categoriesPages/Classic";
 
 const App = () => {
   return (
@@ -41,13 +41,11 @@ const App = () => {
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/verify" element={<Verify />} />
-        <Route path="/hair-style" element={<HairStyle />} />
-        <Route path="/makeup" element={<Makeup />} />
-        <Route path="/threading" element={<Threading />} />
-        <Route path="/facial" element={<Facial />} />
-        <Route path="/waxing" element={<Waxing />} />
-        <Route path="/bleach" element={<Bleach />} />
-        <Route path="/manicure-pedicure" element={<ManicurePedicure />} />
+        <Route path="/masala" element={<Masala />} />
+        <Route path="/elaichi" element={<Elaichi />} />
+        <Route path="/chocolate" element={<Chocolate />} />
+        <Route path="/ginger" element={<Ginger />} />
+        <Route path="/classic" element={<Classic />} />
         <Route path="/combo" element={<Combo />} />
       </Routes>
       <Footer />
