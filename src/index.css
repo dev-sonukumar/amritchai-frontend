@@ -10,6 +10,7 @@ a.active hr {
 
 * {
   font-family: "Outfit", sans-serif;
+  /* background-color: #f2efdd; */
 }
 :root {
   --color-primary: #ec7fa9;
@@ -40,3 +41,5 @@ a.active hr {
 .bdr {
   border: 1px solid red;
 }
+
+

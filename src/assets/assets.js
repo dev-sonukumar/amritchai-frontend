@@ -17,42 +17,36 @@ import razorpay_logo from "./razorpay_logo.png";
 import stripe_logo from "./stripe_logo.png";
 import cross_icon from "./cross_icon.png";
 
-import main_banner_bg from "./main_banner_bg.png";
 import main_banner_bg1 from "./main_banner_bg1.png";
 import main_banner_bg2 from "./main_banner_bg2.png";
 import main_banner_bg3 from "./main_banner_bg3.png";
-import main_banner_bg4 from "./main_banner_bg4.png";
+
 import main_banner_bg_mb1 from "./main_banner_bg_mb1.png";
 import main_banner_bg_mb2 from "./main_banner_bg_mb2.png";
 import main_banner_bg_mb3 from "./main_banner_bg_mb3.png";
-import main_banner_bg_mb4 from "./main_banner_bg_mb4.png";
-import main_banner_bg_mb5 from "./main_banner_bg_mb5.png";
-import main_banner_bg5 from "./main_banner_bg5.png";
+
+
 
 import chai from "././assets/service/chai.webp";
 
 import black_arrow_icon from "./black_arrow_icon.svg";
 import white_arrow_icon from "./white_arrow_icon.svg";
 
-import main_banner_bg_sm from "./main_banner_bg_sm.png";
-import bottom_banner_image from "./bottom_banner_image.png";
-import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
-import bottom_banner_video_sm from "./bottom_banner_video_sm.mp4";
-import bottom_banner_video_sm1 from "./bottom_banner_video_sm.mp4";
+
+
+
+
 
 export const assets = {
   white_arrow_icon,
   black_arrow_icon,
-  main_banner_bg,
   main_banner_bg1,
   main_banner_bg2,
   main_banner_bg3,
-  main_banner_bg4,
-  main_banner_bg_sm,
-  bottom_banner_image,
-  bottom_banner_image_sm,
-  bottom_banner_video_sm,
-  bottom_banner_video_sm1,
+
+
+
+ 
   logo,
   hero_img,
   cart_icon,
@@ -74,9 +68,8 @@ export const assets = {
   main_banner_bg_mb1,
   main_banner_bg_mb2,
   main_banner_bg_mb3,
-  main_banner_bg_mb4,
-  main_banner_bg_mb5,
-  main_banner_bg5,
+
+
   chai,
 };
 
