@@ -80,8 +80,8 @@ export default function HeroSlider() {
   }, [activeSlides]);
 
   return (
-    <div className="p-5 border-black-700 border">
-      <div className="w-full h-[300px] relative overflow-hidden">
+    <div className="p-5  h-[30vh] border">
+      <div className="overflow-hidden relative h-full">
         {activeSlides.map((slide, index) => {
           const isVisible =
             index === currentSlide ||
@@ -101,7 +101,7 @@ export default function HeroSlider() {
                 effect="blur"
                 width="100%"
                 height="100%"
-                className="h-full w-full "
+                className="w-full object-contain"
                 visibleByDefault={index === currentSlide}
               />
               {(slide.heading || slide.subheading) && (

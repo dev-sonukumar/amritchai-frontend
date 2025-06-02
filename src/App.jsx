@@ -23,6 +23,11 @@ import Elaichi from "./pages/categoriesPages/Elaichi";
 import Ginger from "./pages/categoriesPages/Ginger";
 import Chocolate from "./pages/categoriesPages/Chocolate";
 import Classic from "./pages/categoriesPages/Classic";
+import Disclaimer from "./pages/EssentialPages/Disclaimer";
+import PrivacyPolicy from "./pages/EssentialPages/PrivacyPolicy";
+import RefundPolicy from "./pages/EssentialPages/RefundPolicy";
+import ShippingPolicy from "./pages/EssentialPages/ShippingPolicy";
+import TermsAndConditions from "./pages/EssentialPages/TermsAndConditions";
 
 const App = () => {
   return (
@@ -47,6 +52,12 @@ const App = () => {
         <Route path="/ginger" element={<Ginger />} />
         <Route path="/classic" element={<Classic />} />
         <Route path="/combo" element={<Combo />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/refundPolicy" element={<RefundPolicy />} />
+        <Route path="/refundPolicy" element={<RefundPolicy />} />
+        <Route path="/shippingPolicy" element={<ShippingPolicy />} />
+        <Route path="/termsAndCondition" element={<TermsAndConditions />} />
       </Routes>
       <Footer />
     </div>

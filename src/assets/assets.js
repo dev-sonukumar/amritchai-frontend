@@ -25,17 +25,10 @@ import main_banner_bg_mb1 from "./main_banner_bg_mb1.png";
 import main_banner_bg_mb2 from "./main_banner_bg_mb2.png";
 import main_banner_bg_mb3 from "./main_banner_bg_mb3.png";
 
-
-
 import chai from "././assets/service/chai.webp";
 
 import black_arrow_icon from "./black_arrow_icon.svg";
 import white_arrow_icon from "./white_arrow_icon.svg";
-
-
-
-
-
 
 export const assets = {
   white_arrow_icon,
@@ -44,9 +37,6 @@ export const assets = {
   main_banner_bg2,
   main_banner_bg3,
 
-
-
- 
   logo,
   hero_img,
   cart_icon,
@@ -68,8 +58,6 @@ export const assets = {
   main_banner_bg_mb1,
   main_banner_bg_mb2,
   main_banner_bg_mb3,
-
-
   chai,
 };
 

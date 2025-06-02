@@ -22,19 +22,19 @@ const Footer = () => {
           <p className="text-xl font-semibold mb-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/disclaimer">Disclaimer</Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/privacyPolicy">PrivacyPolicy</Link>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
+              <Link to="/termsAndCondition">Terms & Conditions</Link>
             </li>
             <li>
-              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link to="/refundPolicy">Refund Policy</Link>
             </li>
             <li>
-              <Link to="/shipping-returns">Shipping & Returns</Link>
+              <Link to="/shippingPolicy">Shipping Policy</Link>
             </li>
           </ul>
         </div>
